@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=SITE_MIN_WIDTH, initial-scale=1, maximum-scale=1">
+    <title>Task 1</title>
+    <style>
+        .container{
+    
+            display: flex;
+            overflow: visible;
+            max-height: 400px;
+            max-width: 200px;
+            min-height: 400px;
+            flex-direction: row-reverse;
+            justify-content: flex-end;   
+            object-fit: none;
+
+        }
+
+        .div-block{
+            
+            display: flex;
+            min-width: 800px;
+            min-height: 200px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-2{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            object-fit: contain;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container w-container">
+        <div><img src="./source/images/demo_1.jpg" loading="lazy" width="300px"></div>
+        <div class="div-block"></div>
+        <div><img src="./source/images/demo_1.jpg" loading="lazy" width="300px"></div>
+        
+    </div>
+    <div class="container-2 w-container">
+        <a href="#" class="w-button">Hello World</a>
+    </div>
+        
+    
+</body>
+</html>
